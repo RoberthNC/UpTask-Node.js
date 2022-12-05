@@ -10,3 +10,5 @@ const sequelize = new Sequelize('uptasknode', 'root', '', {
     timestamps:false
   }
 });
+
+module.exports = sequelize;
